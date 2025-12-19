@@ -6,18 +6,18 @@
 This extension functions entirely **locally** on your device to help you access research papers.
 
 ---
-
 ## 📦 Data Accessed
+- **Selected Text** – The extension accesses only the specific word or phrase you actively select or right-click to define.
 
-- **Webpage Text** - Scanned locally to detect DOIs (Digital Object Identifiers).  
-  - **Never** transmitted to any server.
+- This text is sent transiently to oxfordlearnersdictionaries.com solely to retrieve the definition.
 
-- **User Settings** - Your preferred Sci-Hub domain and library links.  
-  - Saved securely in your browser (`chrome.storage.sync`).
+- It is never stored, logged, or analyzed by the developer.
 
----
+- **Webpage Content** – The extension strictly interacts with the page you are viewing only when you trigger a lookup.
+
+- It does not scan, read, or monitor your page content in the background.
 
 ## 🔐 Data Usage
+- **Transient External Requests:** The selected word is sent to Oxford Learner's Dictionaries to fetch the meaning. This data is not retained after the popup closes.
 
-- **Local Processing Only:** The extension **does NOT** send webpage data to the developer or third parties.
-- **No Tracking:**  The **developer does NOT** see, log, store, or sell any of your data.
+- **No Tracking:** The developer does NOT see, log, store, sell, or track your browsing history or personal data.
